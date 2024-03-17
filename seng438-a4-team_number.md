@@ -27,9 +27,9 @@
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
 # Explain your SELENUIM test case design process
-
+As a group, we selected a total of eight GUI website functions to test. These included login, colour and size selection, cart, checkout, favourite, menu selection, quantity selection, and search. Different baseline inputs and event combinations were tested for each functionality. The test suite was designed as a group through preliminary exploration of the website under test. By working together, the standard and depth of each function's tests was kept consistent. Test cases varied for different functionalities. For example, testing the favourite button involved testing different numbers of items being favourited, or removing favourites, while testing the checkout page involved following different paths to get to the same checkout screen. Then the design, automation, and execution of the tests were completed through pair programming. Some test cases were altered, and added throughout the automation with Selenium. 
 # Explain the use of assertions and checkpoints
-
+Assertions and verifications were added through one of two methods. Either they were implemented during the recording automation of a test by right clicking a target, or they were added after the recording by manually inserting a command and setting the target and value to verify a component of the website. Each verification was designed purposefully to ensure that the test case being implemented was performing as expected. For instance in the favourite one item test, a "verify element present" check was added to make sure that the selected item was in fact in the favourites page. Typically, multiple verifications were inputted as checkpoints throughout a single test case to make it more organized and obvious where an error may have occurred if a test were to fail. 
 # how did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
