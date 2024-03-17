@@ -1,0 +1,3910 @@
+{
+  "id": "4e2c27a6-8dac-4f9b-8369-51165b979cbd",
+  "version": "2.0",
+  "name": "SENG_438_Assignment_4_Group_1",
+  "url": "https://www.tsc.ca/",
+  "tests": [{
+    "id": "012f7f10-42fd-4d09-a65b-be9dbefe8df1",
+    "name": "First_Test_Login:Valid_Username_Password",
+    "commands": [{
+      "id": "1d528681-e8f6-44a2-9bc7-10307b094f69",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6a7ed62-86d3-4656-af1a-5aac931ebadf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a65b826-8c57-4101-a78b-13ca75db2a31",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46a2f5ad-f8d2-4477-a53a-75942859dcfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=signinLink",
+      "targets": [
+        ["id=signinLink", "id"],
+        ["css=#signinLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//a[@id='signinLink']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/signin')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07b30c42-f34c-4198-b072-73c222c302e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f7d0738-54f5-4403-ac7e-d31426016b35",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "kaylynt@shaw.ca"
+    }, {
+      "id": "af97d757-7e04-4dec-8889-cfb913fc2b1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee405012-c51b-46ff-9629-0426426ff559",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Test123!"
+    }, {
+      "id": "d6e707b2-3da9-4ed1-96e9-0e561467539f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span:nth-child(2)",
+      "targets": [
+        ["css=.btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[5]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "763e4e37-f4d2-46ad-84ae-b2be99e47571",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa7553d-5cda-43c6-a4c8-3dbf632e8f07",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "832bf967-5eff-4ec2-9a3a-8d5d987597f1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.secondary-navigation__rhs-account-panel-link--sign-out > .secondary-navigation__rhs-account-panel-link__text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-panel-link--sign-out > .secondary-navigation__rhs-account-panel-link__text", "css:finder"],
+        ["xpath=//nav[@id='secondary-navigation-rhs-account-panel']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": "Sign out"
+    }]
+  }, {
+    "id": "ad64eb04-78d7-4aeb-a58f-ca4b0a00fdd1",
+    "name": "First_Test_Login:Registered_Wrong_Password",
+    "commands": [{
+      "id": "56bea05e-bb2c-4850-ab83-54ece20aa6b7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e8e3287-835e-446a-a039-31bb6c48db13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0c34828-513b-4957-8423-8d5dcee6c42c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7fbe5b3-d2ec-4e81-a8fa-075e526ed45a",
+      "comment": "",
+      "command": "click",
+      "target": "id=signinLink",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43b27cec-c385-4b69-ae3b-c8496a463904",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6de0401-ef53-40f5-93d2-74678da996ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "kaylyn.tanton@ucalgary.ca"
+    }, {
+      "id": "7b634099-3ba4-40dd-913a-b3f7690e93f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac95c24-6e1e-4b75-9a9e-2c49664988bb",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c42eea-b9fa-41f5-8e87-969967269ba6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "HI"
+    }, {
+      "id": "3f24b46c-959b-4840-8b3b-72ea277c102e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span:nth-child(2)",
+      "targets": [
+        ["css=.btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[5]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "186ba4c9-08ac-4f4a-bdef-7868eb1d6420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-danger:nth-child(4)",
+      "targets": [
+        ["css=.text-danger:nth-child(4)", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[4]", "xpath:idRelative"],
+        ["xpath=//form/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "399eae64-1517-4fa0-b0fa-f1cebce535bb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-danger > span",
+      "targets": [
+        ["css=.text-danger > span", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": "Sorry you are having trouble. Please click or tap on the ‘Forgot password’ link below to reset your password."
+    }, {
+      "id": "eda52297-edbe-4718-88f4-1e33cb8a6bed",
+      "comment": "",
+      "command": "click",
+      "target": "css=signin-app > .clearfix > .clearfix",
+      "targets": [
+        ["css=signin-app > .clearfix > .clearfix", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div", "xpath:idRelative"],
+        ["xpath=//signin-app/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97362c9c-fb65-4249-8575-8f3e5d50cbe9",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de3af986-23e1-42e1-a74b-ac9933346303",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span:nth-child(2)",
+      "targets": [
+        ["css=.btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[5]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e292989-ba47-4e13-8193-f25d27a27e47",
+    "name": "First_Test_Login:Unregistered_Email",
+    "commands": [{
+      "id": "81077e5c-c92b-44d2-8eec-db2570f04084",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91556c30-b069-490f-a1e5-29003210fcd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c23255f9-da47-4738-b938-3507a4928f81",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "431bf7cc-15c1-41f7-a868-f54219ba9b90",
+      "comment": "",
+      "command": "click",
+      "target": "id=signinLink",
+      "targets": [
+        ["id=signinLink", "id"],
+        ["css=#signinLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//a[@id='signinLink']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/signin')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11aa918c-790a-4275-8891-d3ef0471ff65",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fab8cb43-b9bc-46e6-862c-dd8e6a3b2685",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "hello.ENSF438@gmail.com"
+    }, {
+      "id": "68279a43-840f-4bea-a2a6-c8f28415a1d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66abde07-4df6-4cac-bb57-d02c87a8ea33",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "hi"
+    }, {
+      "id": "e2734ab7-9973-4a24-bbc4-c68d630dc79c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span:nth-child(2)",
+      "targets": [
+        ["css=.btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[5]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7337617-7af9-4662-89f8-f3e4e07ef56c",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad99ce17-1e8f-48fc-8429-710ecf402c4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span:nth-child(2)",
+      "targets": [
+        ["css=.btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[5]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70585aca-e780-415c-97e7-74ec52956763",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-danger > span",
+      "targets": [
+        ["css=.text-danger > span", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": "Hm, this email and password combination does not match our records. Please double check and try again."
+    }]
+  }, {
+    "id": "4478f21f-5a97-4fdf-9599-965eec0f2889",
+    "name": "Test_Menu_Bar:Select_From_Main_Menu",
+    "commands": [{
+      "id": "b6f4964e-326f-4885-b426-4d2bed8d01ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4343cd0-726e-4efd-bbe4-c49c3adfaabe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4aef0cb-fc69-4c3a-9b24-1af4eacb2dc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl87_rpMenu_lblTitle_4",
+      "targets": [
+        ["id=contentPlaceHolder_ctl87_rpMenu_lblTitle_4", "id"],
+        ["css=#contentPlaceHolder_ctl87_rpMenu_lblTitle_4", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl87_rpMenu_lblTitle_4']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_rpMenu_hypItem_4']/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "779af4ae-caeb-4aab-9773-a6fc9d32833b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#contentPlaceHolder_ctl106_lblTitle b",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl106_lblTitle b", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl106_lblTitle']/h3/a/b", "xpath:idRelative"],
+        ["xpath=//a/b", "xpath:position"]
+      ],
+      "value": "KITCHEN SPECIALS"
+    }, {
+      "id": "10d3dfca-9e4e-4d43-8a77-49d8cabf1a57",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2490)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6b18d3a6-ac43-4800-ba2d-e9125b5ea87c",
+    "name": "Test_Menu_Bar:Select_From_Secondary_Menu",
+    "commands": [{
+      "id": "4971dfa7-26be-4adb-982e-e25f078b7430",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2477faf-ff08-4110-8b68-c18142de39dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee674719-5f76-4330-aaa6-a25ebe3996d1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Jewellery",
+      "targets": [
+        ["linkText=Men's Jewellery", "linkText"],
+        ["css=.mega-categories__item:nth-child(7) > .mega-categories__item-link", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?nav=N:2038781&ic=HDR_FlyoutNav_Jewellery_Mens_Jewellery&fm=primary_nav')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f69ca5e8-eb75-4873-ac94-fcddf0ebf393",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Jewellery",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e7eea1b-331b-489a-95b5-e7ee70a53b24",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Men's Jewellery",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dda992f6-2855-48b6-9106-3d9b683f88b0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Jewellery",
+      "targets": [
+        ["linkText=Men's Jewellery", "linkText"],
+        ["css=.mega-categories__item:nth-child(7) > .mega-categories__item-link", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?nav=N:2038781&ic=HDR_FlyoutNav_Jewellery_Mens_Jewellery&fm=primary_nav')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9764d6da-dee5-4a37-9a7f-b02df66e1d97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mega-categories__item:nth-child(8)",
+      "targets": [
+        ["css=.mega-categories__item:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav/ul/li[8]", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e6b9bf-75ea-4171-89d3-3202ffa03bc6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Accessories",
+      "targets": [
+        ["linkText=Accessories", "linkText"],
+        ["css=.mega-categories__item:nth-child(8) > .mega-categories__item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?nav=N:101127&ic=HDR_FlyoutNav_Jewellery_Accessories&fm=primary_nav')]", "xpath:href"],
+        ["xpath=//nav/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d10bef7-b241-40f1-af28-710a31b2b6d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mega-categories__item:nth-child(7) .mega-categories__item-button-self",
+      "targets": [
+        ["css=.mega-categories__item:nth-child(7) .mega-categories__item-button-self", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d227a454-8676-41d8-b289-6d7a4f371f84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Accessories",
+      "targets": [
+        ["linkText=Accessories", "linkText"],
+        ["css=.mega-categories__item:nth-child(8) > .mega-categories__item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?nav=N:101127&ic=HDR_FlyoutNav_Jewellery_Accessories&fm=primary_nav')]", "xpath:href"],
+        ["xpath=//nav/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b99881-266b-49d2-a51d-9e4cdcfbf0a4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,410)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e3d24d0-5839-430f-90ce-92a47096c4a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,13)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e32a0091-c7d8-449b-9aca-5ac0ce758803",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.breadcrumb__nav-item-link__ellipsis",
+      "targets": [
+        ["css=.breadcrumb__nav-item-link__ellipsis", "css:finder"],
+        ["xpath=//div[@id='crumb']/nav/ol/li[3]/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cbd2c128-8f82-4f2d-8c60-788ea457f85c",
+    "name": "Test_Menu_Bar:Select_From_Side_Dropdown",
+    "commands": [{
+      "id": "48d1b3b7-46fe-4200-b7fa-97dc8723d2aa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39af8db9-c4d0-42b0-a626-2692b75f4312",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72ea17d8-8cc2-4ef3-9ef6-ac56364a71e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Beauty",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9789cd0f-937d-4be0-b43a-608aac237680",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Beauty",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d2877e2-ef20-4456-816a-22e7b8bb3f5e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Fragrance",
+      "targets": [
+        ["linkText=Bath & Body", "linkText"],
+        ["css=.mega-categories__item:nth-child(5) > .mega-categories__item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Bath & Body')]", "xpath:link"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?nav=N:104266&ic=HDR_FlyoutNav_Beauty_Bath_And_Body&fm=primary_nav')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bath & Body')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd37ded-0d40-4ae6-97d0-f0e45f977733",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women's Perfume",
+      "targets": [
+        ["linkText=Women's Perfume", "linkText"],
+        ["css=.mega-sub-items__item:nth-child(3) > .mega-sub-items__item-link", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-desktop']/nav[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"/pages/productresults?nav=N:100577&ic=HDR_FlyoutNav_Beauty_Fragrance_Women's_Perfume&fm=primary_nav\")]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcec40fa-af0c-4949-bf7d-0bf16e8e05ef",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=contentPlaceHolder_ctl65_rpTS_imgMediumLarge_0",
+      "targets": [
+        ["id=contentPlaceHolder_ctl65_rpTS_imgMediumLarge_0", "id"],
+        ["css=#contentPlaceHolder_ctl65_rpTS_imgMediumLarge_0", "css:finder"],
+        ["xpath=(//img[@alt='fragrance category header'])[2]", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl65_rpTS_imgMediumLarge_0']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl65_rpTS_hypItem_0']/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7388eb3-185f-4675-a58d-bc7048b373ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=contentPlaceHolder_ctl64_rptrBreadcrumb_ctlLnkBreadcrumb_0",
+      "targets": [
+        ["id=contentPlaceHolder_ctl64_rptrBreadcrumb_ctlLnkBreadcrumb_0", "id"],
+        ["css=#contentPlaceHolder_ctl64_rptrBreadcrumb_ctlLnkBreadcrumb_0", "css:finder"],
+        ["xpath=//a[contains(text(),'Beauty')]", "xpath:link"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_rptrBreadcrumb_ctlLnkBreadcrumb_0']", "xpath:attributes"],
+        ["xpath=//div[@id='crumb']/nav/ol/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?dimensions=100038&fm=breadcrumb')]", "xpath:href"],
+        ["xpath=//ol/li[2]/a", "xpath:position"]
+      ],
+      "value": "Beauty"
+    }, {
+      "id": "e76ae3bc-149a-4b69-8459-5c2b54cc5ad5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.breadcrumb__nav-item-link__ellipsis",
+      "targets": [
+        ["css=.breadcrumb__nav-item-link__ellipsis", "css:finder"],
+        ["xpath=//div[@id='crumb']/nav/ol/li[4]/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": "Women's Perfume"
+    }]
+  }, {
+    "id": "ea4141eb-2201-4764-a33c-626f41972c3e",
+    "name": "Test_Search:Fully_Typed_Valid_Entry",
+    "commands": [{
+      "id": "e190e2fa-3cf9-4590-8a3b-0328bd3ce38e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff28fcf2-240c-429a-8acc-df73827b6ba3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "106fbdbb-4c41-42b1-a6b9-2215dbd91740",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "677e8670-0346-422d-89a5-84670752b594",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "slippers"
+    }, {
+      "id": "e7d17777-7a26-4f75-9440-286335c264e6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ae6a1d95-57d2-44c7-a258-7e4ac279bdac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,35)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aa49d51-6a9a-4339-b3c8-fe3e75ad8c93",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,873)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd1e55c8-eb15-4fca-9b63-e488e4249385",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.prp__showing-results",
+      "targets": [
+        ["css=.prp__showing-results", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Showing results for \"slippers\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa5fc3d1-b9f3-463b-af43-a52d2940212b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.prp__relative:nth-child(1) .product-card__thumbnail > img",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Vionic Indulge Relax Slipper']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ab810348-0b28-4cc3-a16d-6002cb70be49",
+    "name": "Test_Search:Partially_Typed_Click_Option",
+    "commands": [{
+      "id": "25adc32a-642d-4970-9f4e-6f4a4bbea8e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2997f2a-165c-4397-bce4-90a4d5119700",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4bd0f23-3213-4a85-ad38-6900aa08aa84",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a656266-f868-41c7-a308-d76c6a398744",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0584a6-4892-4ae8-9938-94cd6bb46f41",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [],
+      "value": "pu"
+    }, {
+      "id": "a0c33532-96b8-4975-a40b-a939b693120f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#autocomplete-0-item-0 mark",
+      "targets": [
+        ["css=#autocomplete-0-item-0 mark", "css:finder"],
+        ["xpath=//li[@id='autocomplete-0-item-0']/a/mark", "xpath:idRelative"],
+        ["xpath=//mark", "xpath:position"],
+        ["xpath=//mark[contains(.,'purse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a83a391e-2d5c-46fb-aafc-d4341f9b9b87",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.breadcrumb__nav-item-link__ellipsis",
+      "targets": [
+        ["css=.breadcrumb__nav-item-link__ellipsis", "css:finder"],
+        ["xpath=//div[@id='crumb']/nav/ol/li[3]/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": "Handbags"
+    }, {
+      "id": "d164a9b2-4a7a-41ab-aa88-87752f9f3e7f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Clothing & Shoes - Handbags - TSC.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b97dafb0-6e13-4279-89e3-f6f25c3d1da7",
+    "name": "Test_Search:Not_Found",
+    "commands": [{
+      "id": "f90d0550-f237-44d8-9cf1-e7b10f8edbcb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ed77f55-9a76-4498-aff5-084dde3ae80f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b32c829f-6700-41ff-b2ce-eaa18a5fa989",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e7f4040-52b4-46c7-a205-c832c5d95b33",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qwertyuiop"
+    }, {
+      "id": "85b4fb98-e705-472e-884c-df168efc6838",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl81_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "538ee9c0-ec2e-4de3-ad7f-ad091a393f15",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,70)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02b17e3d-2b70-4629-b8b3-913d22512d53",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.prp-no-search-results__copy__heading__self",
+      "targets": [
+        ["css=.prp-no-search-results__copy__heading__self", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/section/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'We weren’t able to find any results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eef6db7-46ec-4549-a401-13b90af7e954",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.prp-no-search-results__copy__link__self",
+      "targets": [
+        ["css=.prp-no-search-results__copy__link__self", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/section/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": "try another search"
+    }]
+  }, {
+    "id": "084a9875-1b7f-482a-a4ff-31c1e2381b05",
+    "name": "Test_Change_Colours",
+    "commands": [{
+      "id": "530fc9fd-d866-47c1-8340-3d486a81d4b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/pages/productresults?nav=N:100077&ic=HDR_FlyoutNav_Jewellery_Earrings&fm=primary_nav",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fd7cf55-545b-4bb7-9e4a-efdf5ad46d96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c85ec481-7479-4c28-a86b-0fc9f445be05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.prp__relative:nth-child(1) .product-card__thumbnail > img",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Gem Reflections Sterling Silver Gemstone Hoop Earrings']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87e61b04-64cd-4025-84aa-e37a360b230f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(1) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(1) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button/label", "xpath:idRelative"],
+        ["xpath=//button/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/AMY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a667ce5-10f9-46a1-8492-1f4c8d313706",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(2) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(2) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[2]/label", "xpath:idRelative"],
+        ["xpath=//button[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/BLUE TOPAZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d9d0398-1fbe-4558-a5e3-d6a2fff73ce1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[3]/label", "xpath:idRelative"],
+        ["xpath=//button[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/CITRINE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b076bc-7d36-4fd9-ba02-533574c35d27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[3]/label", "xpath:idRelative"],
+        ["xpath=//button[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/CITRINE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81300a69-3e80-49b6-918a-bd64710fdc3a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[3]/label", "xpath:idRelative"],
+        ["xpath=//button[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/CITRINE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9434a69-625e-42d6-af78-4d93610b8736",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(4) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(4) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[4]/label", "xpath:idRelative"],
+        ["xpath=//button[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/GARNET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b1d1a7f-74d6-4537-8553-79007ab5c878",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(4) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(4) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[4]/label", "xpath:idRelative"],
+        ["xpath=//button[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/GARNET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "506f0998-aedb-4dbc-bca6-74361cb03170",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(4) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(4) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[4]/label", "xpath:idRelative"],
+        ["xpath=//button[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/GARNET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e20fb44a-1041-4d72-a81d-4af15a664409",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(5) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(5) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[5]/label", "xpath:idRelative"],
+        ["xpath=//button[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RHOP/PERIDOT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e51479-20f6-46b5-800c-4467e3c155fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(6) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(6) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[6]/label", "xpath:idRelative"],
+        ["xpath=//button[6]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles YGP/AMY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f73184-ac7f-4234-9225-f73d13553b46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(7) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(7) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[7]/label", "xpath:idRelative"],
+        ["xpath=//button[7]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles YGP/BLUE TOPAZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "858cd550-8695-49b6-b9d9-f08474782936",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__color-and-taste-option:nth-child(8) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.product-card__color-and-taste-option:nth-child(8) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[8]/label", "xpath:idRelative"],
+        ["xpath=//button[8]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles YGP/CITRINE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6f42e8-93c6-4422-ab4a-368e4a699b1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__color-and-taste-option:nth-child(9) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.product-card__color-and-taste-option:nth-child(9) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[9]/label", "xpath:idRelative"],
+        ["xpath=//button[9]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles YGP/GARNET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3da4c4fc-83ed-4bb5-80de-d80a86cbcf3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__color-and-taste-option:nth-child(10) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.product-card__color-and-taste-option:nth-child(10) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[10]/label", "xpath:idRelative"],
+        ["xpath=//button[10]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles YGP/PERIDOT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4700e60b-cbdb-4926-8273-c351ab358aaa",
+    "name": "Test_Change_Colours:Verify_Correct_Value_Assigned",
+    "commands": [{
+      "id": "04837820-2581-49b0-a424-fcef55927321",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/pages/productresults?dimensions=0&searchterm=shirts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61b1aac6-3642-4b86-bb05-aca0b51964bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe0fb233-aba4-4404-8886-1ed6ee3933ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "307b1a5c-6070-42f5-9b19-f615fd97d8d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [],
+      "value": "brian bailey classic shirt"
+    }, {
+      "id": "a80ce06b-6696-4aa8-b637-4bc662f6f063",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6b59af7c-86ff-4bd2-bd24-049584f6650b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.prp__relative:nth-child(1) > .product-card",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) > .product-card", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6103c32e-3f16-44d9-9016-34aa8eb2cbec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__size-option:nth-child(3) > .product-card__size-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__size-option:nth-child(3) > .product-card__size-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset/div/div/button[3]/label", "xpath:idRelative"],
+        ["xpath=//button[3]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b9051b7-2da4-42b7-a6ef-679147aac9e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[3]/label", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/button[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles CELADON')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a3bec9-7bc1-4216-9373-4fc6253b1868",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(3) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[3]/label", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/button[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles CELADON')]", "xpath:innerText"]
+      ],
+      "value": "styles CELADON"
+    }, {
+      "id": "c2ce4fa7-d07e-4d49-8317-3a7c409709b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(6) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-option:nth-child(6) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button[6]/label", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/button[6]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles PASSION')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "210f8ff3-5d43-41b5-ba9d-acbcf2bff4c7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.prp__relative:nth-child(1) .product-card__color-and-taste-title",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__color-and-taste-title", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/p", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Select style:')]", "xpath:innerText"]
+      ],
+      "value": "Select style: PASSION"
+    }]
+  }, {
+    "id": "ae18f644-1415-438d-bf4f-c71dad417246",
+    "name": "Test_Favourite:Favourite_One_Item",
+    "commands": [{
+      "id": "b4c41a2e-b695-4c45-9d87-56adf2245455",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77fcc4a5-0f76-438f-8f65-5ba5f5f44c25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fad3325-a2e7-46cb-b91b-daf1bc3ed058",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93bce6a1-b0cc-48da-a9a7-6fcdeac16368",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "smeg '50s retro style milk frother"
+    }, {
+      "id": "cf970275-b93b-47f5-9691-830997ef8e59",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b948616-9c27-4ffb-8c67-e1f9fa17f188",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__header-like",
+      "targets": [
+        ["css=.product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57d32910-eeda-4b40-8150-92a0a148ff16",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.product-card__header-like",
+      "targets": [
+        ["css=.product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91246f9a-c862-4f4b-89d8-9d3cb51d2a0f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl52_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a9e8f76-c8ec-4a04-88b4-77e1e03dc696",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl52_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f66a845c-63ca-4a8d-85d7-ba432e86bbde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl52_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1a22c4c-53d9-43f4-aa3f-f762bdd147c2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,275)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbe2d907-e9e2-43d2-a7f0-d71f6ef25487",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=img486915120",
+      "targets": [
+        ["id=img486915120", "id"],
+        ["css=#img486915120", "css:finder"],
+        ["xpath=//img[contains(@src,'https://item.tscimg.ca/TSC/4/48/486/0x0/486915_BLK.jpg?impolicy=M')]", "xpath:img"],
+        ["xpath=//img[@id='img486915120']", "xpath:attributes"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[3]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd865b7d-aa06-434d-8ade-0c1a03eca8c4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-xs-6:nth-child(1) .on-air-prod-name > div",
+      "targets": [
+        ["css=.col-xs-6:nth-child(1) .on-air-prod-name > div", "css:finder"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[3]/div/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": "SMEG '50s Retro Style Milk Frother"
+    }]
+  }, {
+    "id": "fb2c661e-5285-4e45-b14b-74320fb86704",
+    "name": "Test_Favourite:Favourite_Multiple_Items",
+    "commands": [{
+      "id": "c291f05c-5d00-4425-a13c-386dfe5e54a1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/pages/productresults?nav=N:100040&ic=HDR_FlyoutNav_Beauty_Makeup&fm=primary_nav",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "283f723d-6f29-4433-9fae-a51e74a86a69",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67899ba1-4b27-42ee-8eda-8470f5ade539",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl60_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b1fa9a-d356-41dd-b07a-0ab1ab3579fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl60_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "makeup"
+    }, {
+      "id": "4c099d09-a1ba-4db6-8bd4-da113f0e893e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl60_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "36e766ca-adf4-461a-bfc6-bf6a7f9006f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like SKINN Foundation Brush')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbc0fabe-43aa-4be9-8826-932c61e3ab56",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.prp__relative:nth-child(2) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(2) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Lise Watier Be-Spoke Bestseller 4-Piece Kit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc68ac7-ea07-4791-9508-4f3d70ab0af5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(2) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(2) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Lise Watier Be-Spoke Bestseller 4-Piece Kit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff8e5d88-dafb-4e55-ac72-1c6b934d27dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.prp__relative:nth-child(2) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(2) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Lise Watier Be-Spoke Bestseller 4-Piece Kit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f0a564-5f0b-4857-b1cf-1c9259a411e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(3) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(3) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Beekman 1802 Skincare Infused Facial Wipe Trio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98283ef-f2f8-4c8c-9ecd-40a33fe6dbe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl52_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8e0e3a-6a24-49cd-b22a-734c562c1673",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.recently-viewed-title",
+      "targets": [
+        ["css=.recently-viewed-title", "css:finder"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "MY FAVOURITES"
+    }]
+  }, {
+    "id": "414b0d7b-cfe9-4a94-be5e-9f83f0078e13",
+    "name": "Test_Favourite:Fully_Clear_Favourites",
+    "commands": [{
+      "id": "f082c70b-21d3-4d9c-94e8-d31a303d866a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60766cdf-8cf3-46e9-a43a-debe3ee42765",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e023275-2c63-4d2a-aaa8-f7995480c7b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_4",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_4", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_4", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_4']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_4']/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95ada8f-0f26-433e-8345-4e1f8847c826",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0",
+      "targets": [
+        ["id=contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0", "id"],
+        ["css=#contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0", "css:finder"],
+        ["xpath=(//img[@alt='KN-  Dash Mar 24'])[2]", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl100_rpTS_hypItem_0']/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e5c7e9-b553-4d44-9ecf-09f4b071c117",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0",
+      "targets": [
+        ["id=contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0", "id"],
+        ["css=#contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0", "css:finder"],
+        ["xpath=(//img[@alt='KN-  Dash Mar 24'])[2]", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl100_rpTS_imgMediumLarge_0']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl100_rpTS_hypItem_0']/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eafaa41f-f927-49ca-946d-b60170c323ab",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='contentPlaceHolder_ctl106_rpItems_hypItem_0']/div/div",
+      "targets": [
+        ["xpath=//a[@id='contentPlaceHolder_ctl106_rpItems_hypItem_0']/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ec373f-4020-40fc-8e95-126cd813f627",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,214)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8d0e9be-4bcf-41d5-97e1-4d22a48dcf94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,280)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e16452-1bcb-4b46-8456-0839d7bd9da7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__favorite:nth-child(6) .pdp-description__add-to-bag__favorite__icon-self",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__favorite:nth-child(6) .pdp-description__add-to-bag__favorite__icon-self", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f23212e2-5747-4247-96e4-2692ece2619b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-container__logo",
+      "targets": [
+        ["css=.secondary-navigation__rhs-container__logo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "69d2ba54-f2dd-4bce-8fce-2b1c7f86b350",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8b6882f-5cdb-4884-a969-6bd0226bba2e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.btn-clear-viewing-history",
+      "targets": [
+        ["css=.btn-clear-viewing-history", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CLEAR ALL FAVOURITES?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18640731-5706-4b2b-91fb-a365aa4aecf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-clear-viewing-history",
+      "targets": [
+        ["css=.btn-clear-viewing-history", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CLEAR ALL FAVOURITES?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fb68916-13e6-4b1d-9aa5-b78b7b3c7c06",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='clearAllFavouritesModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d4fd527-f55e-4490-aa36-7af725b1ff9c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.crv-title",
+      "targets": [
+        ["css=.crv-title", "css:finder"],
+        ["xpath=//div[@id='clearAllFavouritesModal']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//ng-component/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "CLEAR ALL FAVOURITES?"
+    }, {
+      "id": "df72524c-a326-4f1e-9bca-5877bf4bc9a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='clearAllFavouritesModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1658445b-958a-4cce-bf15-e5a9f93bb2c2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.no-history-msg:nth-child(1)",
+      "targets": [],
+      "value": "Your list is empty, but you can change that!"
+    }]
+  }, {
+    "id": "586f7d21-986f-4f27-8f16-9d3d81b035c1",
+    "name": "Test_Favourite:Unselect_A_Favourite",
+    "commands": [{
+      "id": "e1687663-2510-4f29-bdd8-d4e4591e02d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b286b9ce-b627-4b57-8aa8-c3726bbce889",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e836ef4-6dd2-43e9-b022-cbac2c1e8b4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_5",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_5", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_5", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_5']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_5']/span/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35ff4c80-aa44-461c-8004-63d92c880252",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,262)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0e98e9e-3e05-466f-80a0-c6f7fb71a7b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,867)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1d713ba-c5a9-42c9-844f-ef92a4f9da9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(2) > .LeftRightPadding:nth-child(2) > a",
+      "targets": [
+        ["css=.col-xs-12:nth-child(2) > .LeftRightPadding:nth-child(2) > a", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div[5]/div[2]/div/div[2]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/productresults?dimensions=100360&ic=FTCAT_GWY_HF_YogaAndPilates_230217')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c732914b-9a44-48fa-9684-b9583e45e9ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Merrithew Fitness Circle® - Flex')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37d75486-7111-4426-acea-e1b77adba848",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl56_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bb54c79-a45b-4c34-861c-21d2b6dd5029",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl34_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f566550d-c537-422b-b1c5-3e30ced3910b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl34_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28fa467b-ae50-4e4a-8eb9-97d03f8b401a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfc15d8d-4dde-4d62-bda5-3ced1b59abdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-clear-viewing-history",
+      "targets": [
+        ["css=.btn-clear-viewing-history", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CLEAR ALL FAVOURITES?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de2424bf-0e87-4a79-b705-bb3ceba71580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='clearAllFavouritesModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e601f4-a0e8-4826-90fb-b62b6ceb1e6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl34_rpMenu_lblTitle_4",
+      "targets": [
+        ["id=contentPlaceHolder_ctl34_rpMenu_lblTitle_4", "id"],
+        ["css=#contentPlaceHolder_ctl34_rpMenu_lblTitle_4", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl34_rpMenu_lblTitle_4']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl34_rpMenu_hypItem_4']/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb5a88e-356c-4605-a22f-04011814e701",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl108_rpTS_imgMediumLarge_1",
+      "targets": [
+        ["id=contentPlaceHolder_ctl108_rpTS_imgMediumLarge_1", "id"],
+        ["css=#contentPlaceHolder_ctl108_rpTS_imgMediumLarge_1", "css:finder"],
+        ["xpath=//img[@alt='Slide 2 34382']", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl108_rpTS_imgMediumLarge_1']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl108_rpTS_hypItem_1']/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c2e08f-1c6b-4c69-8e30-6c1e217d4267",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(1) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(1) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like temp-tations 6-Piece Essential Bake and Serve Set')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba924414-a5e7-4951-a33f-1d046bf99a9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(2) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(2) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[3]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Dash Express Mini Donut Maker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dd7bf21-bab0-46e8-8a92-74a6fe8ab4c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(3) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(3) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[3]/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like temp-tations Bamboo Wood Platters (set of 2)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbf35ad6-0d53-4cde-9e16-d184f38babf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(2) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(2) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[3]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Dash Express Mini Donut Maker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4eabfa4-7446-4569-a574-d7787fdd9262",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl52_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c045e9e-f33b-4477-b965-c42e1f8bffd8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,328)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9446f8b-961e-44e8-80a4-947e27bd0520",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-xs-6:nth-child(2) .on-air-prod-name > div",
+      "targets": [
+        ["css=.col-xs-6:nth-child(2) .on-air-prod-name > div", "css:finder"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[3]/div[2]/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[2]/div", "xpath:position"]
+      ],
+      "value": "temp-tations 6-Piece Essential Bake and Serve Set"
+    }]
+  }, {
+    "id": "30a4de29-016b-4394-814d-31af54ac6873",
+    "name": "Test_Cart:Add_To_Cart",
+    "commands": [{
+      "id": "c9db7676-94bc-48c8-99b3-41f1fa1f7b3a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd3cbe01-c094-4fdb-b700-1e10574fa957",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "881ebaa9-b053-4eec-9670-3dd459988c22",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf9caac-a45e-4704-91c6-de8c101a29f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "apple watch series 8 bundle"
+    }, {
+      "id": "da69fdfb-9777-4b6c-a936-9410b2da45a5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "669f8284-b9da-4351-b47e-1b29782f660a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,660)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47a7be59-821a-46bc-9848-49dc4bb9bad0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Apple Watch Series 8 Bundle']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e929fc9e-6c88-45ba-957b-4d2150657ef5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__color-and-taste-option:nth-child(1) > .product-card__color-and-taste-option-label",
+      "targets": [
+        ["css=.product-card__color-and-taste-option:nth-child(1) > .product-card__color-and-taste-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset[2]/div/div/button/label", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/button/label", "xpath:position"],
+        ["xpath=//label[contains(.,'styles RED')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46c27989-49c2-4f63-918b-ff2eeff2bfc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__size-option:nth-child(2) > .product-card__size-option-label",
+      "targets": [
+        ["css=.product-card__size-option:nth-child(2) > .product-card__size-option-label", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/form/fieldset/div/div/button[2]/label", "xpath:idRelative"],
+        ["xpath=//button[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09113214-99f2-4c6f-85f1-5ad0f9f4c48f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__add-button-title",
+      "targets": [
+        ["css=.product-card__add-button-title", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87b0623d-885b-49ae-b976-e8801e7929a4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,213)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20b8b2e5-08c0-4dfe-95c7-2f12b2b083f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[26]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd09fe0-2296-43cf-bd32-909ae781ec87",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32061c87-c96b-422f-8d17-5a12e7999ef7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.bag-btn:nth-child(2)",
+      "targets": [
+        ["css=.bag-btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": "CHECKOUT"
+    }, {
+      "id": "425b0959-0109-467a-85a8-20d37f637d17",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6f8a538-68f1-4851-8b3b-18690bd79030",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7af3b1d9-7566-4ad5-b4d6-ecacf5076674",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo code: SAVEMORE']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl38_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd5a718c-eaa8-4be1-8b6c-696694e10473",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo code: SAVEMORE']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl38_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04b2e59-2730-4eb5-9e3a-7729461b2727",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item__name",
+      "targets": [
+        ["css=.item__name", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Apple Watch Series 8 Bundle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c4da0c-d108-4f7f-8693-062c1fafa1d8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.item__name",
+      "targets": [
+        ["css=.item__name", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Apple Watch Series 8 Bundle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfee3510-64b4-4932-9ee2-4ee600c85b75",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.item__name",
+      "targets": [
+        ["css=.item__name", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Apple Watch Series 8 Bundle')]", "xpath:innerText"]
+      ],
+      "value": "Apple Watch Series 8 Bundle"
+    }]
+  }, {
+    "id": "0dbc94ba-cb84-4a43-93df-1606d811195e",
+    "name": "Test_Cart:Remove_Cancel",
+    "commands": [{
+      "id": "eba03afd-8223-4a34-90e5-828f785adcea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4ae446a-47e7-4bf6-8974-db5e8f080ea1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a488f3c-dffb-4184-8b47-2dd16d9292d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-bag__text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__text", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6624bc5-f352-4084-8bf1-847c812d79b2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2974a26-484d-4efc-8e68-b4ab16e42bcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b570f07-18a4-4a21-80f5-a0b01b0511e2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.cancel",
+      "targets": [
+        ["css=.cancel", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcb3b777-1a1e-49f9-a339-48e0aa80451e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dialog__card__copy-heading",
+      "targets": [
+        ["css=.dialog__card__copy-heading", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Are you sure you want to remove this item from your bag?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b1e7da-0d1f-4ce4-95fd-815f0708d74e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.dialog__card__copy-heading__self",
+      "targets": [
+        ["css=.dialog__card__copy-heading__self", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": "Are you sure you want to remove this item from your bag?"
+    }, {
+      "id": "203833e4-8f3a-4268-9352-676ebe14f380",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cancel",
+      "targets": [
+        ["css=.cancel", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7575e5d7-32b2-48ca-9794-f82f67c9bebc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.item__description",
+      "targets": [
+        ["css=.item__description", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80c5ea86-c0dd-4577-991b-884e364eab82",
+    "name": "Test_Cart:Remove_Complete",
+    "commands": [{
+      "id": "9d207860-6602-45fe-ab35-e6533f4a4156",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9cc74a1-97c9-4960-978f-45ea0b599877",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bb6217e-607c-4973-8ebf-3f4e26910765",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-bag__text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__text", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce50843-5ef2-4016-8046-1bf4b544696c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,109)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1586239f-9722-41e7-a58a-47a279303396",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": "Remove"
+    }, {
+      "id": "738ccd37-8936-4b2f-a3ae-8deb096add1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dcc76e2-41cd-480e-9410-da70fc632e8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ace4fa-91c1-473a-ba5d-532537d7cfaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bag__details",
+      "targets": [
+        ["css=.bag__details", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div", "xpath:idRelative"],
+        ["xpath=//span[3]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be679f1c-2dbe-48ce-ace3-ec44bed91fe0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.bag__para:nth-child(3)",
+      "targets": [
+        ["css=.bag__para:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'We have thousands of products to choose from. Go ahead and find something you like!')]", "xpath:innerText"]
+      ],
+      "value": "We have thousands of products to choose from. Go ahead and find something you like!"
+    }, {
+      "id": "513777ae-3a77-4684-8773-990aad0806d5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Back to shopping",
+      "targets": [
+        ["linkText=Back to shopping", "linkText"],
+        ["css=.bag__back-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to shopping')]", "xpath:link"],
+        ["xpath=//div[@id='shopping-bag']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[20]", "xpath:href"],
+        ["xpath=//span[3]/div/div[2]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4632877e-d692-47e3-bb97-7c6ca9f0ed70",
+    "name": "Test_Quantities:Increase_By_One",
+    "commands": [{
+      "id": "34010299-a6f7-4bda-94d0-c6ed0ac11525",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e78272f-de36-4505-89f9-fb16c98c5697",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6b2e2d8-9a62-4099-bb86-a671f365a870",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45bbdc6d-672c-461f-9d37-c3bf9ae4a0f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lego 4-knob desk drawer"
+    }, {
+      "id": "1aabe893-352e-4309-ac4f-0edc4543ad1c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3910b20c-caac-4dd3-a609-56c3007b82d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Lego 4-Knob Desk Drawer']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1060dd1-02b4-4a48-8c55-a29fdfa463d9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,194)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8e0fa07-3658-4d95-944a-e7469ca735c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#img-RED .gallery__image--aspect-ratio",
+      "targets": [
+        ["css=#img-RED .gallery__image--aspect-ratio", "css:finder"],
+        ["xpath=//img[@alt=\"Image 713745_RED.jpg, Product 713-745 / Price $29.99, Lego 4-Knob Desk Drawer from Lego on TSC.ca's Toys & Hobbies department\"]", "xpath:img"],
+        ["xpath=//figure[@id='img-RED']/a/img", "xpath:idRelative"],
+        ["xpath=//figure[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a470805e-ed00-4f61-8f02-d82926ff65f2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#img-RED .gallery__image--aspect-ratio",
+      "targets": [
+        ["css=#img-RED .gallery__image--aspect-ratio", "css:finder"],
+        ["xpath=//img[@alt=\"Image 713745_RED.jpg, Product 713-745 / Price $29.99, Lego 4-Knob Desk Drawer from Lego on TSC.ca's Toys & Hobbies department\"]", "xpath:img"],
+        ["xpath=//figure[@id='img-RED']/a/img", "xpath:idRelative"],
+        ["xpath=//figure[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeb4b83b-b358-41f0-8993-02270217e444",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35f9c131-e8ef-47dd-8437-43979e5a6524",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,56.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "762d1a60-4d0a-480f-aa71-9ee06d16852d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1405e08-41cf-48bf-888f-4ba608fefb3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "78a96d1f-b50a-464b-8371-9b6c66f89695",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "14,8.203125"
+    }, {
+      "id": "5c5dd1d4-5c46-40f6-8891-02f22c130232",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "14,8.203125"
+    }, {
+      "id": "c6d6bace-e4b4-465e-8bcb-eaf0e562035d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "14,8.203125"
+    }, {
+      "id": "15708a9c-0177-4ffd-97c3-16ed61388fc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9c05943-1233-4d16-a451-6a1828325bf6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "c9808e75-f14f-403d-952c-1719d87d4a44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84225321-1448-4387-9145-8d2d2000bd2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2e227475-0219-4ebc-bc01-117b5b5bb30a",
+    "name": "Test_Quantities:Increase_By_Three",
+    "commands": [{
+      "id": "6e760270-0828-47a5-beba-e851f3f0afeb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "385a3600-73f2-45c8-ada3-2a5025c025ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dce82e9-5cf0-4a16-9b5d-ab6d126458f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77082f17-4772-4d0b-aee6-306f7c291826",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lego 4-knob desk drawer"
+    }, {
+      "id": "c70d1bb0-ae0a-4c9c-8f5b-984d53e09d33",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8f55f83f-dcb9-41b3-a5c0-7209b745142c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Lego 4-Knob Desk Drawer']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71905934-848e-4fe4-af86-1c57adfab707",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,289)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81a8c9a3-20b5-43ba-930a-b6ad72695574",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2988380-476b-462a-8340-921c507fc818",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,207)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a280a9f7-3602-4f04-97ef-402c8f530dc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd03410a-d0e7-4e18-9a6b-fc0b588a45a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a971144-09e8-4195-b4a7-47bf4dd7d372",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de64bcb-4661-41d9-8874-4213b478f32a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "94bf9d0c-fd9f-433e-9fdf-69cb564227c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d101c3df-80da-4684-8e45-4b4509668dd3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a91280d6-55f5-4ec7-9839-120a03c27f6b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "75ffcdf2-b904-4724-a782-10ab35b8f55b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90602aa-a0f1-45cd-afef-c0208aa12195",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a76d38-081c-4dd2-b3f7-df7ff3396b50",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "ea90c9af-4360-442b-8ad9-bc8da7e9be9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c38383-ae44-4432-9c86-32b9973416b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "34b056b3-cdac-45b5-a1f0-9189151ce8b6",
+    "name": "Test_Quantities:Increase_Then_Decrease",
+    "commands": [{
+      "id": "dad61a36-9e74-4382-93c0-fc48b1036ded",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8aec91f-a28d-448d-97bb-ae668bf71f6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34d3dfd4-10b7-4b13-9f86-3204ac83381f",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5896de7c-e35f-4a9c-9e4c-48c0fe660e6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lego 4-knob desk drawer"
+    }, {
+      "id": "62b9ec39-d49b-499c-8de5-688a2a95fd22",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0b044237-fafe-4f4a-b6fe-a209bb3a9396",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo code: SAVEMORE']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl54_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d2e24e2-6151-40c1-a0c7-a42b67833f72",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo code: SAVEMORE']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl54_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56480007-838c-466a-a81d-3dc04066e3aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Lego 4-Knob Desk Drawer']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43c496e5-1d74-4a4a-ac62-81acb7502097",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f653b9e9-cc02-40e2-8688-12ef572a4e8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1e9dda3-4932-4da8-9536-76c8f18a0d1e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dbd67cb-a744-45ed-b193-67525e1e1648",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11c43258-1136-475a-a027-e133ac8fdd43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27123b9d-c7f4-4fec-bd10-904198043f1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbeb1d3c-2fa1-4e89-bd3e-3d9ab9e1d8f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ddc1eef-35b7-472f-9544-a8bc7a939769",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "be9d2385-19c5-4dee-9c35-e15e531dc10d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbb7437d-df41-48c8-b843-89329f11d671",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc7b797-d171-4cf8-a2b6-e37b175e43e3",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.item__number",
+      "targets": [
+        ["css=.item__number", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ffa5747-21d6-4a26-af35-6fa4a15a3519",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__container",
+      "targets": [
+        ["css=.item__container", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4531a408-c6c0-41c3-af4c-d46c4967cf0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9f7509-f2b4-4a51-ac32-d495076b9e32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__minus > svg",
+      "targets": [
+        ["css=.quantity__minus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e350871f-a927-4022-9bae-7206898e064e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__minus > svg",
+      "targets": [
+        ["css=.quantity__minus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d40bcf2e-bd15-4f9a-8084-b791c1f768c2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.quantity__display",
+      "targets": [
+        ["css=.quantity__display", "css:finder"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "edc5a5d0-28b7-46ce-9bfb-a281e2bebe00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ba69407-1fb1-4111-9052-065469a9ecd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "65be41dc-c668-41a4-b177-bd68221b27f9",
+    "name": "Test_Checkout:Checkout_From_Added_Item",
+    "commands": [{
+      "id": "2af3ea7f-0222-4934-b28f-0891017a5d02",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8f985af-f3c9-42b7-92f7-f2b70bba898f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6628b0be-7184-4998-aa7e-151d7a9c3853",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.aa-SubmitButton > svg",
+      "targets": [
+        ["css=.aa-SubmitButton > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e643a8-ed67-47f9-b516-70edb8b408e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f067dff4-ad78-45eb-9376-ba81805359ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "floral friendship butterfly"
+    }, {
+      "id": "9eb0f4bb-5393-476a-959b-9bee2bc87176",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "25f87e92-9e81-4115-9ac1-1e5b8fbcac0f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo code: SAVEMORE']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl54_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b4af7bf-3558-4fee-bf2d-53558f017c1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Floral Friendship Butterflies']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14cc9221-e785-4570-9d30-b2fe5314afb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb9c48d-42da-43be-911c-e86c4a4436cb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1418cdf-f3c9-46f4-88d6-f8bf57d4088e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.bag-btn:nth-child(2)",
+      "targets": [
+        ["css=.bag-btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": "CHECKOUT"
+    }, {
+      "id": "29d67902-006d-4294-b311-fe33f55d4a71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bag-btn:nth-child(2)",
+      "targets": [
+        ["css=.bag-btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "319ce12a-0baa-408d-b4f8-f4d6f0748a28",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.OrderSummaryWrap > h2",
+      "targets": [
+        ["css=.OrderSummaryWrap > h2", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div[2]/aside/div/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c91f275f-201f-4f96-a493-8d83b886ae3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OrderSummaryWrap > h2",
+      "targets": [
+        ["css=.OrderSummaryWrap > h2", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div[2]/aside/div/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e080c815-7492-4ff6-967f-8d904dc0d973",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.OrderSummaryWrap > h2",
+      "targets": [
+        ["css=.OrderSummaryWrap > h2", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div[2]/aside/div/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"]
+      ],
+      "value": "ORDER SUMMARY"
+    }, {
+      "id": "f783fbba-5366-4da4-b340-1839d2d7b55c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.header__logo-text",
+      "targets": [
+        ["css=.header__logo-text", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div/div/header/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "CHECKOUT"
+    }, {
+      "id": "c2f9b5f8-5e0a-491a-ad19-7437dc60a823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svgCart",
+      "targets": [
+        ["css=.svgCart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c6c7e09-3bb9-46aa-a704-fd9e40a1ab1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__container:nth-child(1) .item__remove",
+      "targets": [
+        ["css=.item__container:nth-child(1) .item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb9e92d1-d9f1-4707-b888-79913f9f441f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a9bd9ca0-0153-40a0-9b55-d6f417724839",
+    "name": "Test_Checkout:Checkout_From_Bag",
+    "commands": [{
+      "id": "5e42a735-f854-4681-acba-7a34f7aff217",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cd092d6-f0b3-43e8-b850-ae8d2a9912b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef06b5a6-cdd9-45c3-871e-f0625c48c536",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df7ba00-15a7-42d5-a0b1-96e90c38f760",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c5050a8-d3a6-46ad-850b-18004918d562",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "floral friendship butterfly"
+    }, {
+      "id": "a6b7bf5f-85f2-4398-893c-7bfdec04281b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c4932f6c-6f7d-4be4-abe6-b7a875f57faa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Floral Friendship Butterflies']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a533fa-d232-4c77-a9e4-9a84d3b0e7b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9411de94-1f5e-4f90-8a13-189cf8a1b41f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,165)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e535011-f241-4abd-8b59-17001f07e083",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ab16e5b-c989-4de6-8cfa-d3a9f2c32911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff9b8b5c-6e11-44a1-b547-2820fa05dd77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,329)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31ea2baf-0496-41c1-bdc5-599940ba932d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.summary__button:nth-child(8) > span",
+      "targets": [
+        ["css=.summary__button:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='summary']/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": "Proceed to checkout (1 item)"
+    }, {
+      "id": "451558b4-5204-4445-ad1e-69b6579c504d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.summary__button:nth-child(8) > span",
+      "targets": [
+        ["css=.summary__button:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='summary']/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2028139-5eea-40c6-8747-038770ee7c14",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.header__logo-text",
+      "targets": [
+        ["css=.header__logo-text", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div/div/header/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "CHECKOUT"
+    }, {
+      "id": "896e2f6b-6148-4054-aa45-c49612aa60ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OrderSummaryWrap > h2",
+      "targets": [
+        ["css=.OrderSummaryWrap > h2", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div[2]/aside/div/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c46418a-d408-4bb3-8ffa-6260efc07ef5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.OrderSummaryWrap > h2",
+      "targets": [
+        ["css=.OrderSummaryWrap > h2", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div[2]/aside/div/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"]
+      ],
+      "value": "ORDER SUMMARY"
+    }, {
+      "id": "80ad7919-7ec2-4d97-82f4-f9fe59cfacbe",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div[2]/aside/div/div/div[2]/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8087227-a0cb-4770-a5f0-b03a17039f65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svgCart",
+      "targets": [
+        ["css=.svgCart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed8dc86-9122-4874-a107-76dc60e206e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb419ca-4172-4c88-bdb9-4a98ce2bd83f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a616d15f-776f-4ebf-a486-b209c761b975",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cda1f3ce-de65-4914-9512-ebf075558121",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "60087259-07ee-4177-a502-8ff6c9d35317",
+    "name": "Test_Checkout:Checkout_From_Bag_Seperately",
+    "commands": [{
+      "id": "7c8c354c-0d1e-414f-9ab3-8a413a679c1c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tsc.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5ca8657-4971-4389-b56a-7ab8aa9f076e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1428x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4df6756b-c4af-4b58-bb31-518fb4c8741f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=g:nth-child(1) > g > rect",
+      "targets": [
+        ["css=g:nth-child(1) > g > rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc268e11-8253-4257-b8b8-e6f2d6bf4485",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=g:nth-child(1) > g > rect",
+      "targets": [
+        ["css=g:nth-child(1) > g > rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ac24cb1-7be9-4bea-ad65-3c2d170e6762",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f2fb40c-ba60-4f67-8366-c36f3c1d6a9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03a90460-4f3e-4f43-9e67-3c9618817d92",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "floral friendship butterfly"
+    }, {
+      "id": "0a1ca0ff-ac22-44e8-8fff-a85863fd7759",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "96ca6298-8826-4569-896c-ad7a149ffeda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card__thumbnail > img",
+      "targets": [
+        ["css=.product-card__thumbnail > img", "css:finder"],
+        ["xpath=//img[@alt='Floral Friendship Butterflies']", "xpath:img"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4cb842-a5e7-41f0-99c2-cbe9b0267e23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__quantity__select",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__quantity__select", "css:finder"],
+        ["xpath=//div[@id='product-details-page']/form/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fb74a5f-be0c-4b54-b87b-afa9ae3c7cf9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.pdp-description__add-to-bag__quantity__select",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "92a40261-4ee1-47b7-9593-c166a64d09de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be633aa0-1ffa-453d-94c2-15cd608ae763",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,73)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2abd662-0131-4c33-8387-0f7b04d99675",
+      "comment": "",
+      "command": "click",
+      "target": "id=Line-3-1",
+      "targets": [
+        ["id=Line-3-1", "id"],
+        ["css=#Line-3-1", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a048d27b-26f8-4c8e-925c-bd349188b07c",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl42_rpMenu_lblTitle_0",
+      "targets": [
+        ["id=contentPlaceHolder_ctl42_rpMenu_lblTitle_0", "id"],
+        ["css=#contentPlaceHolder_ctl42_rpMenu_lblTitle_0", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl42_rpMenu_lblTitle_0']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl42_rpMenu_hypItem_0']/span/span", "xpath:idRelative"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93830ed0-fce1-453b-b541-6d98007512d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl88_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5cd4867-856d-42ab-bd1e-07cc5cbdcfee",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl88_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "936dfbb1-29d7-4c45-88ab-8948d9070da1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-bag__text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__text", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceb7ea5e-c1e4-470b-ac34-b61af16a7ed1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,233)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8df982ba-cf02-4f02-845b-45e19c23344b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.summary__button:nth-child(8) > span",
+      "targets": [
+        ["css=.summary__button:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='summary']/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": "Proceed to checkout (2 items)"
+    }, {
+      "id": "d998d842-9a05-458d-95c7-87dabc9d27bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.summary__button:nth-child(8) > span",
+      "targets": [
+        ["css=.summary__button:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='summary']/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f77281f-89af-46ad-bb05-aa4154f2443e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.header__logo-text",
+      "targets": [
+        ["css=.header__logo-text", "css:finder"],
+        ["xpath=//div[@id='expressCheckout']/div/div/div/header/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "CHECKOUT"
+    }, {
+      "id": "2472e870-1b1c-47e8-aca8-ed9d9d450b42",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.productlist__row > .productlist__right",
+      "targets": [
+        ["css=.productlist__row > .productlist__right", "css:finder"],
+        ["xpath=//div[@id='collapse__productlist']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce273b9-bf85-4bd0-acf3-d97f552d572f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svgCart",
+      "targets": [
+        ["css=.svgCart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d5e0e1-dada-499f-80ee-a9bb58455e52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item__remove",
+      "targets": [
+        ["css=.item__remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a89068-0058-4e5d-a738-ef2b010740b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "21c67bf6-0f0e-4c73-90e3-648e19e08932",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tsc.ca/"],
+  "plugins": []
+}
